@@ -1,3 +1,9 @@
+# 开发于 python3
+# 依赖 pytorch：（官网找安装方式）开发使用版本为 torch-1.4.0-cp36-cp36m-win_amd64.whl
+# 依赖 opencv： （pip install opencv-contrib-python==3.4.1.15）需要使用sift图像算法。所以注意安装版本。
+
+# 直接执行即可测试
+
 import cv2
 import numpy as np
 import torch
