@@ -3,8 +3,9 @@
 开发于 python3
 
 ```
-# 依赖 pytorch：（官网找安装方式）开发使用版本为 torch-1.4.0-cp36-cp36m-win_amd64.whl
+# 依赖 pytorch：（官网找安装方式，用一个比较新的版本即可）我开发使用版本为 torch-1.4.0-cp36-cp36m-win_amd64.whl
 # 依赖 opencv： （pip install opencv-contrib-python==3.4.1.15）需要使用sift图像算法。所以注意安装版本。
+    contrib 版简单理解成 opencv 的增强版就行。
 ```
 
 内附少量样本直接执行即可测试，直接显示标注好的图片。代码稍加修改就能拿到自己想要的坐标信息了。
