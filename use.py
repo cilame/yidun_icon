@@ -256,7 +256,8 @@ v = [os.path.join(xmlpath, i) for i in os.listdir(xmlpath) if i.endswith('.jpg')
 v = v[::-1]
 
 print('loading net')
-state = torch.load('net.pkl')
+state = torch.load('net.pkl', map_location=torch.device(DEVICE))
+# state = torch.load('net.pkl') # 如果上面的加载方式不行就去掉 map_location 参数再试试
 print('loading net ok.')
 for file in v:
     print(file)
